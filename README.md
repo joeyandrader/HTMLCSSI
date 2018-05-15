@@ -1,7 +1,7 @@
 # HTMLCSSI
 Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.br/course/introducao-html-css
 
-[https://givingdata.com/wp-content/uploads/2013/07/html-css-js.png]
+![alt text](https://givingdata.com/wp-content/uploads/2013/07/html-css-js.png)
 
 # Aula 1: Iniciando HTML
 ```
