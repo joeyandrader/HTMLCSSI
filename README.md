@@ -2,7 +2,7 @@
 Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.br/course/introducao-html-css
 
 <p align="center">
-  <img width="350" height="300" src="https://givingdata.com/wp-content/uploads/2013/07/html-css-js.png">
+  <img width="460" height="300" src="https://givingdata.com/wp-content/uploads/2013/07/html-css-js.png">
 </p>
 
 # Aula 1: Iniciando HTML
