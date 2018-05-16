@@ -5,7 +5,7 @@
    	font-family: "Time New Roman" serif;
    	background-color: #F2FFFC;
    }
-   h1 {
+   main h1 {
    	font-family: "Arial" sans-serif;
    	text-align: center;
    	color: #FFF;
@@ -16,4 +16,22 @@
    }
    p {
    	text-align: justify;
+   }
+   aside {
+   	background-color: #3C1D3D;
+   	color: #F2FFFC;
+   }
+   nav a {
+   	color: #F2FFFC;
+   }
+   main a {
+   	color: #851944;
+   }
+   aside a {
+   	color: inherit;
+   	font-family: "Open Sans Condensed", sans-serif;
+   }
+   footer {
+   	background-color: #000;
+   	color: #F2FFFC;
    }

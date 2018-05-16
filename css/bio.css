@@ -4,7 +4,7 @@
    	background-color: #F2FFFC;
    }
 
-   h1 {
+   main h1 {
    	font-size: 60px;
    	background-color: rgb(120, 30, 60);
    	color: #FAFFFA;
@@ -20,3 +20,27 @@
    	text-align: justify;
    	font-family: "Times New Roman", serif;
    }
+ blockquote {
+    background-color: #D9E5E3;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+main a {
+	color: #851944;
+}
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}

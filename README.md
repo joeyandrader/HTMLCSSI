@@ -43,5 +43,20 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
 >Entendendo as cores RGB(255,255,255) Vermelhor, Verde, Azul,...
 >Cores mais especificas hexadecimal, #FFF, #EE8...
 ```
+# Aula 3: Aprofundando no HTML
 
-
+```
+>Atribuindo links em textos <a href=""> (links absolutos , links relativos)
+>Adicionando IMG na pagina <img src="">
+>Tag alt="" tornando a pagina mais acessivel a deficientes visuais.
+>Atribuindos citaçoes com tags <blockquote> e tag <cite>
+>HTML e Semântica <main>: conteúdo principal da página
+> <header>: cabeçalho da página ou de uma região dela
+> <footer>: mesma ideia da tag <header> para o rodapé
+> <aside>: conteúdo auxiliar ao conteúdo principal, como links relacionados ao conteúdo
+> <article>: conteúdo que, por si só, já tem um sentido completo, como um post de um blog ou uma notícia
+> <section>: parte/seção de uma página ou texto
+> Listas com tag <ul> e <li>
+> Criando entidades no HTML como por exemplo > $copy;
+> Seletores de descendência como "nav a, main h1"
+```
