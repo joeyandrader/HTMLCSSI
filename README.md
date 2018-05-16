@@ -60,3 +60,13 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
 > Criando entidades no HTML como por exemplo > $copy;
 > Seletores de descendência como "nav a, main h1"
 ```
+
+# Aula 4: O navegador trabalhando ao nosso favor
+```
+>Abrindo inspetor de paginas no google crhome
+>Atribuindo e editando propriedades do HTML e CSS
+>Resolvendo ou procurando erros de digitação onde o inspetor mostra em casos dificeis.
+>Usando o inspetor a nosso favor para melhor criação de uma pagina HTML, CSS
+>Alterando a página pelo próprio navegador
+>Atribuindo estilo pelo proprio elemento do inspetor, ou alterando tags
+```
