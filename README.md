@@ -40,7 +40,7 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
     	font-family: "Time New Roman" serif;
     }
 </style>
->Entendendo as cores RGB(255,255,255) Vermelhor, Verde, Azul,...
+>Entendendo as cores RGB(255,255,255) Vermelho, Verde, Azul,...
 >Cores mais especificas hexadecimal, #FFF, #EE8...
 ```
 # Aula 3: Aprofundando no HTML
@@ -69,4 +69,15 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
 >Usando o inspetor a nosso favor para melhor criação de uma pagina HTML, CSS
 >Alterando a página pelo próprio navegador
 >Atribuindo estilo pelo proprio elemento do inspetor, ou alterando tags
+```
+
+# Aula 5: Aprimorando o Layout
+```
+>Aplicando Espaçamento entre elementos ultilizando Padding , margin
+>Margin: controla o espaço entre elementos de blocos.
+>Padding: controla o espaço entre o conteúdo de um elemento e sua borda.
+>Propriedades Width , Height que controla apenas o tamanho de um elemento
+>Propriedades Box-Sizing controla apenas como a largura e a altura de um elemento deve ser calculada.
+>Propriedades Line-height controla apenas a altura entre as linhas de texto da página
+>Atribuindo Bordas nos elementos, Tipos de bordas e espaçamentos e cores
 ```

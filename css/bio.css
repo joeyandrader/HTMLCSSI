@@ -2,6 +2,7 @@
 
    body {
    	background-color: #F2FFFC;
+   	line-height: 1.5;
    }
 
    main h1 {
@@ -10,6 +11,8 @@
    	color: #FAFFFA;
    	text-align: center;
    	font-family: "Open sans", sans-serif;
+   	padding: 25px;
+   	margin: 0px;
    }
    h2 {
    	font-size: 40px;
@@ -20,27 +23,39 @@
    	text-align: justify;
    	font-family: "Times New Roman", serif;
    }
- blockquote {
-    background-color: #D9E5E3;
-}
+   blockquote {
+   	background-color: #D9E5E3;
+   	padding: 20px;
+   	border:10px solid #C2CCCA;
+   	width: 250px;
+   	margin: 0px;
+   	box-sizing: border-box;
+   }
 
-aside {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-}
+   aside {
+   	background-color: #3C1D3D;
+   	color: #F2FFFC;
+   	padding: 20px;
+   }
 
-footer {
-    background-color: #000;
-    color: #F2FFFC;
-}
+   footer {
+   	background-color: #000;
+   	color: #F2FFFC;
+   	padding: 20px;
+   }
 
-nav a {
-    color: #F2FFFC;
-}
-main a {
-	color: #851944;
-}
-aside a {
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
-}
+   nav a {
+   	color: #F2FFFC;
+   }
+   main a {
+   	color: #851944;
+   }
+   aside a {
+   	color: inherit;
+   	font-family: "Open Sans Condensed", sans-serif;
+   }
+   div {
+   	margin-left: auto;
+   	margin-right: auto;
+   	width: 720px;
+   }
