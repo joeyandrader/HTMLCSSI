@@ -18,6 +18,6 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
 >Tags HEAD (serve para agrupar informações para o navegador entender melhor nosso site)
 >Tags BODY (serve para agrupar as informações que queremos mostrar para os usuários)
 >Diferenças entre tags <p> = Paragrafos,  <strong> = Formatação em Negrito, <em> = Italico,  e atribuindo a pag html
->Iniciando Blog index
+>Iniciando Blog index.
 ```
 

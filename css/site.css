@@ -1,0 +1,19 @@
+/* Exercicio Alura Curso CSS 
+   By : Joel Andrade;
+   */
+   body {
+   	font-family: "Time New Roman" serif;
+   	background-color: #F2FFFC;
+   }
+   h1 {
+   	font-family: "Arial" sans-serif;
+   	text-align: center;
+   	color: #FFF;
+   	background-color: #851944;
+   }
+   h2 {
+   	font-family: "Arial" sans-serif;
+   }
+   p {
+   	text-align: justify;
+   }
