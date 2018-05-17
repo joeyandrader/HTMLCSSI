@@ -1,7 +1,7 @@
 /* Exercicio Alura Curso CSS 
    By : Joel Andrade;
    */
- 
+
    body {
    	font-family: "Time New Roman" serif;
    	background-color: #F2FFFC;
@@ -25,6 +25,20 @@
    aside {
    	background-color: #3C1D3D;
    	color: #F2FFFC;
+   	text-align: center;
+   	padding: 20px;
+   	font-family: "Open Sans Condensed", sans-serif;
+   }
+   aside h1 {
+   	font-size: 30px;
+   	margin-bottom: 25px;
+   }
+   aside a {
+   	color: inherit;
+   	font-family: "Open Sans Condensed", sans-serif;
+   }
+   aside li {
+   	display: inline-block;
    }
    nav a {
    	color: #F2FFFC;
@@ -32,10 +46,7 @@
    main a {
    	color: #851944;
    }
-   aside a {
-   	color: inherit;
-   	font-family: "Open Sans Condensed", sans-serif;
-   }
+
    footer {
    	background-color: #000;
    	color: #F2FFFC;
@@ -48,10 +59,6 @@
    	margin: 20px 40px;
    	box-sizing: border-box;
    	border: 10px solid #C2CCCA;
-   }
-   aside h1 {
-   	font-size: 30px;
-   	margin-bottom: 25px;
    }
    main div {
    	padding: 30px 0;
