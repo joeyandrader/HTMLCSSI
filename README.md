@@ -88,3 +88,10 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
 >Entendendo e atribuindo ordem de estilo, e o que pode afetar.
 >Entendo sobre conflitos no css.
 ```
+
+# Aula 7: Um pouquinho de posicionamento
+```
+>Atribuindo Posicionamento em propriedades da pagina
+>atribuindo css display
+>Display : inline, block , inline-block, none.
+```

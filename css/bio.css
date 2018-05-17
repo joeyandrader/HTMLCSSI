@@ -59,6 +59,9 @@
    aside a {
    	color: inherit;
    }
+   aside li {
+   	display: inline-block;
+   }
    div {
    	margin-left: auto;
    	margin-right: auto;
