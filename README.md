@@ -95,3 +95,20 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
 >atribuindo css display
 >Display : inline, block , inline-block, none.
 ```
+
+# Aula 8: Mais seletores
+```
+>Atribuindo novas funcionalidades ao css...
+>aplicando novas regras como CLASS e ID's
+>Verificando as diferenças entre os atributos class e id's
+>testando e aplicando na pagina html
+>Conflito entre classes e id.
+>Exemplo: div {
+    background-color: red;
+}
+div {
+    background-color: blue;
+}
+>Temos um conflito, porém Todos os elementos <div> terão fundo azul.
+>Assim ultilizando o critério de desempate é qual das classes aparece por último no arquivo CSS
+```

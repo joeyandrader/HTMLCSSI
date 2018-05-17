@@ -5,6 +5,7 @@
    body {
    	font-family: "Time New Roman" serif;
    	background-color: #F2FFFC;
+   	line-height: 1.5;
    }
    main h1 {
    	font-family: "Arial" sans-serif;
@@ -22,7 +23,7 @@
    	text-align: justify;
    	margin: 20px 0;
    }
-   aside {
+   .navegacao-site {
    	background-color: #3C1D3D;
    	color: #F2FFFC;
    	text-align: center;
@@ -35,9 +36,8 @@
    }
    aside a {
    	color: inherit;
-   	font-family: "Open Sans Condensed", sans-serif;
    }
-   aside li {
+   .icones-sociais li {
    	display: inline-block;
    }
    nav a {
@@ -47,10 +47,6 @@
    	color: #851944;
    }
 
-   footer {
-   	background-color: #000;
-   	color: #F2FFFC;
-   }
    blockquote {
    	background-color: #D9E5E3;
    	padding: 20px;
@@ -72,3 +68,28 @@
    h2 {
    	font-size: 30px;
    }
+   #rodape-da-pagina {
+   	background-color: #000;
+   	color: #F2FFFC;
+   	padding: 20px;
+   }
+   article {
+   	padding-bottom: 30px;
+   	border: 1px solid #ccc;
+   	margin-bottom: 20px;
+   }
+
+  /* by Joel */
+   .leia-mais {
+   	color: #FFF;
+   	border-radius: 5px;
+   	padding: 4px 15px;
+   	padding-bottom: 6px;
+   	text-decoration: none;
+   	background-color: #3C1D3D; 
+
+   }
+   .leia-mais:hover {
+   	background-color: #851944;
+   }
+   /*  ######  */

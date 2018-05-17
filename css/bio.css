@@ -43,6 +43,9 @@
    	font-size: 30px;
    	margin-bottom: 25px;
    }
+   aside a {
+   	color: inherit;
+   }
    footer {
    	background-color: #000;
    	color: #F2FFFC;
@@ -55,10 +58,8 @@
    main a {
    	color: #851944;
    }
-   aside a {
-   	color: inherit;
-   }
-   aside li {
+   
+   .icones-sociais li {
    	display: inline-block;
    }
    div {
