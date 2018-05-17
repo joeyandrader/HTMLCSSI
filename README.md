@@ -81,3 +81,10 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
 >Propriedades Line-height controla apenas a altura entre as linhas de texto da página
 >Atribuindo Bordas nos elementos, Tipos de bordas e espaçamentos e cores
 ```
+
+# Aula 6: Construindo uma base sólida
+```
+>Aplicando estilo de Reset.css na pagina , resetando estilos padroes de navegadores.
+>Entendendo e atribuindo ordem de estilo, e o que pode afetar.
+>Entendo sobre conflitos no css.
+```

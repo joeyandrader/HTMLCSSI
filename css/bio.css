@@ -35,9 +35,15 @@
    aside {
    	background-color: #3C1D3D;
    	color: #F2FFFC;
+   	text-align: center;
    	padding: 20px;
+   	text-align: center;
+   	font-family: "Open Sans Condensed", sans-serif;
    }
-
+   aside h1 {
+   	font-size: 30px;
+   	margin-bottom: 25px;
+   }
    footer {
    	background-color: #000;
    	color: #F2FFFC;
@@ -52,7 +58,6 @@
    }
    aside a {
    	color: inherit;
-   	font-family: "Open Sans Condensed", sans-serif;
    }
    div {
    	margin-left: auto;
