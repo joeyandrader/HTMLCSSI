@@ -8,12 +8,13 @@
    	line-height: 1.5;
    }
    main h1 {
-   	font-family: "Arial" sans-serif;
+   	font-family: "Open sans", sans-serif;
    	text-align: center;
    	color: #FFF;
    	background-color: #851944;
    	border-bottom: 10px solid black;
    	font-size: 60px;
+   	text-transform: uppercase;
    }
    h2 {
    	font-family: "Arial" sans-serif;
@@ -33,6 +34,7 @@
    aside h1 {
    	font-size: 30px;
    	margin-bottom: 25px;
+   	text-transform: uppercase;
    }
    aside a {
    	color: inherit;
@@ -40,6 +42,22 @@
    .icones-sociais li {
    	display: inline-block;
    }
+   .icones-sociais a {
+   	display: block;
+   	width: 40px;
+   	height: 40px;
+   	text-indent: -9999px; /* pode usar assim para esconder a fontes ou  font-size: 0px; */
+   }
+   .github {
+   	background-image: url(../bio/github.png);
+   }
+   .twitter {
+   	background-image: url(../bio/twitter.png);
+   }
+   .linkedin {
+   	background-image: url(../bio/linkedin.png);
+   }
+
    nav a {
    	color: #F2FFFC;
    }
@@ -79,7 +97,7 @@
    	margin-bottom: 20px;
    }
 
-  /* by Joel */
+   /* by Joel */
    .leia-mais {
    	color: #FFF;
    	border-radius: 5px;
@@ -93,3 +111,4 @@
    	background-color: #851944;
    }
    /*  ######  */
+

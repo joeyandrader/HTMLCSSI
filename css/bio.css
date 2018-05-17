@@ -13,6 +13,7 @@
    	font-family: "Open sans", sans-serif;
    	padding: 25px;
    	margin: 0px;
+   	text-transform: uppercase;
    }
    h2 {
    	font-size: 40px;
@@ -42,9 +43,11 @@
    aside h1 {
    	font-size: 30px;
    	margin-bottom: 25px;
+   	text-transform: uppercase;
    }
    aside a {
    	color: inherit;
+
    }
    footer {
    	background-color: #000;
@@ -54,13 +57,29 @@
 
    nav a {
    	color: #F2FFFC;
+   	text-transform: lowercase;
    }
    main a {
    	color: #851944;
    }
-   
+
    .icones-sociais li {
    	display: inline-block;
+   }
+   .icones-sociais a{
+   	display: block;
+   	width: 40px;
+   	height: 40px;
+    font-size: 0px; /* pode usar assim para esconder as fontes ou 	text-indent: -9999px;*/
+   }
+   .github {
+   	background-image: url(../bio/github.png);
+   }
+   .twitter {
+   	background-image: url(../bio/twitter.png);
+   }
+   .linkedin {
+   	background-image: url(../bio/linkedin.png);
    }
    div {
    	margin-left: auto;

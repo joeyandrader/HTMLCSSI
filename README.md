@@ -112,3 +112,15 @@ div {
 >Temos um conflito, porém Todos os elementos <div> terão fundo azul.
 >Assim ultilizando o critério de desempate é qual das classes aparece por último no arquivo CSS
 ```
+
+#Aula 9: Nem tudo é o que parece
+```
+>Atribuindo transformaçoes de texto em ultilizando text-transform uppercase e lowercase
+>Adicionando Image replacement: Dentro da folha de estilo:
+>.github {
+    background-image: url(github.png);
+}
+>Display Blocks nos links
+>Image replacement e ferramentas de buscas...
+>Aplicando e entendendo text-indent -9999 ou font-size 0px; ambos remove o texto..
+```
