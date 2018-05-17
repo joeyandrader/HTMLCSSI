@@ -113,7 +113,7 @@ div {
 >Assim ultilizando o critério de desempate é qual das classes aparece por último no arquivo CSS
 ```
 
-#Aula 9: Nem tudo é o que parece
+# Aula 9: Nem tudo é o que parece
 ```
 >Atribuindo transformaçoes de texto em ultilizando text-transform uppercase e lowercase
 >Adicionando Image replacement: Dentro da folha de estilo:
