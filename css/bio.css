@@ -1,4 +1,9 @@
    /* Curso Alura Começando com CSS  */ 
+/* Exercicio Alura Curso CSS 
+   By : Joel Andrade;
+   */
+   /* Perdoe pela bagunça do css */
+   /* Desevolvido durante o curso */
 
    body {
    	background-color: #F2FFFC;
@@ -92,13 +97,13 @@
    	font-size: 0px; /* pode usar assim para esconder as fontes ou 	text-indent: -9999px;*/
    }
    .github {
-   	background-image: url(../bio/github.png);
+   	background-image: url(../img/github.png);
    }
    .twitter {
-   	background-image: url(../bio/twitter.png);
+   	background-image: url(../img/twitter.png);
    }
    .linkedin {
-   	background-image: url(../bio/linkedin.png);
+   	background-image: url(../img/linkedin.png);
    }
    div {
    	margin-left: auto;

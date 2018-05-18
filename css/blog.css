@@ -1,6 +1,9 @@
+   /* Curso Alura Começando com CSS  */ 
 /* Exercicio Alura Curso CSS 
    By : Joel Andrade;
    */
+   /* Perdoe pela bagunça do css */
+   /* Desevolvido durante o curso */
 
    body {
    	font-family: "Time New Roman" serif;
@@ -147,7 +150,7 @@
    }
    .container {
    	margin:auto 0px;
-    width:1000px;
-    padding-bottom: 200px;
-    padding: 50px;
-   }
+     width:1000px;
+     padding-bottom: 200px;
+     padding: 50px;
+  }
