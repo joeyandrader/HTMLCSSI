@@ -14,10 +14,12 @@
    	padding: 25px;
    	margin: 0px;
    	text-transform: uppercase;
+   	border-bottom: 10px solid black;
    }
    h2 {
    	font-size: 40px;
    	font-family: "Open Sans", sans-serif;
+   	clear: both;
    }
 
    p {
@@ -39,6 +41,16 @@
    	text-align: center;
    	padding: 20px;
    	font-family: "Open Sans Condensed", sans-serif;
+   	float: right;
+   }
+   aside, img {
+   	float: right;
+   	width: 15%;
+   	border-bottom: 10px solid black;
+   }
+   aside {
+   	clear: right;
+   	box-sizing: border-box;
    }
    aside h1 {
    	font-size: 30px;
@@ -53,11 +65,11 @@
    	background-color: #000;
    	color: #F2FFFC;
    	padding: 20px;
+   	clear: both;
    }
 
    nav a {
    	color: #F2FFFC;
-   	text-transform: lowercase;
    }
    main a {
    	color: #851944;
@@ -70,7 +82,7 @@
    	display: block;
    	width: 40px;
    	height: 40px;
-    font-size: 0px; /* pode usar assim para esconder as fontes ou 	text-indent: -9999px;*/
+   	font-size: 0px; /* pode usar assim para esconder as fontes ou 	text-indent: -9999px;*/
    }
    .github {
    	background-image: url(../bio/github.png);
@@ -85,4 +97,21 @@
    	margin-left: auto;
    	margin-right: auto;
    	width: 720px;
+   }
+   .fiat {
+   	float: right;
+   	margin-left: 50px;
+   }
+   .petrobras {
+   	float: left;
+   	margin-right: 50px;
+   }
+   main {
+   	float: left;
+   	width: 85%;
+   }
+   cite {
+   	font-style: italic;
+   	float: right;
+   	padding: 5px;
    }

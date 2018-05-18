@@ -124,3 +124,11 @@ div {
 >Image replacement e ferramentas de buscas...
 >Aplicando e entendendo text-indent -9999 ou font-size 0px; ambos remove o texto..
 ```
+
+# Aula 10: Posicionamento mais a fundo
+```
+>Tipos de conteudos flutuantes
+>Float right e left "Posicionando elementos a direita e esquerda"
+>Ultilizando box sizing- border box
+>Propriedades  Clear . Left , right , both "Elimina espaço na esquerda, direita . ou em ambos"
+```
