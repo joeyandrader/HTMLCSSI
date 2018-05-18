@@ -75,10 +75,6 @@
    	box-sizing: border-box;
    	border: 10px solid #C2CCCA;
    }
-   main div {
-   	padding: 20px 10px;
-   	margin: 10px;
-   }
    strong {
    	font-weight: bold;
    }
@@ -93,6 +89,10 @@
    	color: #F2FFFC;
    	padding: 20px;
    	clear: both;
+   	position: fixed;
+   	bottom: 0;
+   	width: 100%;
+   	box-sizing: border-box;
    }
    article {
    	padding-bottom: 65px;
@@ -127,12 +127,27 @@
    	float: right;
    	clear: right;
    	box-sizing: border-box;
+   	position: relative;
+   	top: 211px;
    }
    aside, img  {
    	float: right;
    	width: 15%;
+   	border-left: 10px solid black;
+   	border-bottom: 10px solid black;
+   }
+   .minha-foto {
+   	position: absolute;
+   	top: 0;
+   	right: 0;
    }
    main {
    	float: left;
    	width: 85%;
+   }
+   .container {
+   	margin:auto 0px;
+    width:1000px;
+    padding-bottom: 200px;
+    padding: 50px;
    }

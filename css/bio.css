@@ -47,10 +47,13 @@
    	float: right;
    	width: 15%;
    	border-bottom: 10px solid black;
+   	border-left: 10px solid black;
    }
    aside {
    	clear: right;
    	box-sizing: border-box;
+   	position: relative;
+   	top: 211px;
    }
    aside h1 {
    	font-size: 30px;
@@ -66,6 +69,10 @@
    	color: #F2FFFC;
    	padding: 20px;
    	clear: both;
+   	position: fixed;
+   	bottom:0px;
+   	width: 100%;
+   	box-sizing: border-box;
    }
 
    nav a {
@@ -114,4 +121,16 @@
    	font-style: italic;
    	float: right;
    	padding: 5px;
+   }
+   .minha-foto {
+   	position: absolute;
+   	top: 0;
+   	right: 0;
+   }
+   .container {
+   	margin: 0 auto;
+   	width: 600px;
+   	padding: 40px 0;
+   	padding-bottom: 100px;
+
    }

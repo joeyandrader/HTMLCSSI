@@ -132,3 +132,12 @@ div {
 >Ultilizando box sizing- border box
 >Propriedades  Clear . Left , right , both "Elimina espaço na esquerda, direita . ou em ambos"
 ```
+
+# Aula 11: Elementos onde queremos
+```
+>Propriedades Position. ("Relative , absolute e fixed")
+>Relative , Realtivo a posição original do elemento
+>Absolute , com ele podemos colocar um elemento onde quisermos na página
+>Fixed , Fixamos um elemento independentemente da posição da rolagem da página no navegador.
+>Todas propriedades usam elementos como top , left , right , bottom.
+```
