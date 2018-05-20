@@ -52,14 +52,14 @@
    	height: 40px;
    	text-indent: -9999px; /* pode usar assim para esconder a fontes ou  font-size: 0px; */
    }
-   .github {
-   	background-image: url(../bio/github.png);
+  .github {
+      background-image: url(../img/github.png);
    }
    .twitter {
-   	background-image: url(../bio/twitter.png);
+      background-image: url(../img/twitter.png);
    }
    .linkedin {
-   	background-image: url(../bio/linkedin.png);
+      background-image: url(../img/linkedin.png);
    }
 
    nav a {
@@ -149,8 +149,8 @@
    	width: 85%;
    }
    .container {
-   	margin:auto 0px;
-     width:1000px;
-     padding-bottom: 200px;
-     padding: 50px;
-  }
+      margin:auto 0px;
+      width:1000px;
+      padding-bottom: 200px;
+      padding: 50px;
+   }

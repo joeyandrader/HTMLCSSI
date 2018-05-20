@@ -47,18 +47,16 @@
    	padding: 20px;
    	font-family: "Open Sans Condensed", sans-serif;
    	float: right;
+      clear: right;
+      box-sizing: border-box;
+      position: relative;
+      top: 211px;
    }
    aside, img {
    	float: right;
    	width: 15%;
    	border-bottom: 10px solid black;
    	border-left: 10px solid black;
-   }
-   aside {
-   	clear: right;
-   	box-sizing: border-box;
-   	position: relative;
-   	top: 211px;
    }
    aside h1 {
    	font-size: 30px;
@@ -75,7 +73,7 @@
    	padding: 20px;
    	clear: both;
    	position: fixed;
-   	bottom:0px;
+   	bottom: 0;
    	width: 100%;
    	box-sizing: border-box;
    }
