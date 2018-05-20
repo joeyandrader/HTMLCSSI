@@ -141,3 +141,9 @@ div {
 >Fixed , Fixamos um elemento independentemente da posição da rolagem da página no navegador.
 >Todas propriedades usam elementos como top , left , right , bottom.
 ```
+
+# Aula 12: Desafios Finais
+```
+>Testando conhecimento aprendindo durante todo o curso
+>Criando a pagina "Portifolio"
+```
