@@ -108,12 +108,13 @@
    /* by Joel */
    .leia-mais {
    	color: #FFF;
-   	border-radius: 5px;
-   	padding: 4px 15px;
-   	padding-bottom: 6px;
+   	border-radius: .5em;
+   	padding: 0.5em 1em;
+   	padding-bottom: .4em;
    	text-decoration: none;
    	background-color: #3C1D3D; 
    	float: right;
+      font-size: 1em;
 
    }
    .leia-mais:hover {

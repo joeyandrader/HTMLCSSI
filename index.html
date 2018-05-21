@@ -1,74 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
-	<meta charset="utf-8">
-	<link rel="icon" href="favicon.ico">
-	<title>Blog - Joao da Silva</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/blog.css">
-	<!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
-
-	<!-- carrega a fonte Open Sans Condensed na versão negrito, -->
-	<!-- que é a única necessária para os cabeçalhos            -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+    <meta charset="UTF-8">
+    <title>João da Silva - Desenvolvedor Web</title>
+    <link rel="shortcut icon" href="imagens/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
 </head>
 <body>
-	<main>
-
-		<h1>Blog</h1>
-		<div class="container">
-			<article>
-				<p>O essencial de design responsivo</p>
-				<time datetime="2018-05-16">16 de maio de 2018</time>
-				<p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?</p>
-				<a class="leia-mais" href="#">Leia mais</a>
-				<footer class="tags-noticias">Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
-			</article>
-			<article>
-				<p>Por que fazer páginas acessíveis?</p>
-				<time datetime="2018-05-16">16 de maio de 2018</time>
-				<p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive da própria W3C. Mas vale a pena investir nisso?</p>
-				<a class="leia-mais" href="#">Leia mais</a>
-				<footer class="tags-noticias">Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
-			</article>
-			<article>
-				<p>JavaScript não obstrusivo</p>
-				<time datetime="2018-05-16">16 de maio de 2018</time>
-				<p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
-				<a class="leia-mais" href="#">Leia mais</a>
-				<footer class="tags-noticias">Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
-			</article>
-		</div>
-	</main>
-	<img class="minha-foto" src="img/eu.jpg" alt="Foto de Joao da Silva">
-	<aside class="navegacao-site">
-		<nav>
-			<h1>Joao da Silva</h1>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="pages/portifolio.html">Portifolio</a></li>
-				<li><a href="pages/bio.html">Sobre mim</a></li>
-				<li><a href="pages/blog.html">Blog</a></li>
-				<li><a href="pages/contato.html">Contato</a></li>
-			</ul>
-		</nav>
-		<ul class="icones-sociais">
-			<li>
-				<a class="github" href="#"> github</a>
-			</li>
-			<li>
-				<a class="twitter" href="#">twitter</a>
-			</li>
-			<li>
-				<a class="linkedin" href="#">linkedin </a>
-			</li>
-		</ul>
-	</aside>
-	<footer class="rodape-da-pagina">
-		&copy; João da Silva 2014
-	</footer>
-
-	<div></div>
+    <header class="titulo-principal">
+        <img class="foto-home" src="img/eu.jpg" alt="Foto de João da Silva">
+        <h1>João da Silva</h1>
+        <p class="subtitulo-principal">Desenvolvedor web</p>
+    </header>
+    <main>
+        <section class="secao-inicio saudacao">
+            <p class="saudacao"><span class="saudacao-inicio">Olá,</span> meu nome é <strong>João da Silva</strong> <span class="saudacao-ultima-linha">e eu construo <em>sites maravilhosos</em></span></p>
+            <a class="botao-index" href="pages/bio.html">Conheça mais um pouco sobre mim</a>
+        </section>
+        <section class="secao-inicio trabalhos">
+            <h2>Trabalhos</h2>
+            <ul>
+                <li><img src="img/portifolio/bmw.png" alt="Site da BMW"></li>
+                <li><img src="img/portifolio/ibm.png" alt="Site da IBM"></li>
+                <li><img src="img/portifolio/uol.png" alt="Site da UOL"></li>
+            </ul>
+            <a class="botao-index" href="pages/portfolio.html">Veja mais</a>
+        </section>
+        <section class="secao-inicio blog">
+            <h2>Blog</h2>
+            <small>Últimos posts</small>
+            <ol>
+                <li>
+                    <a href="pages/blog.html">O essencial de design responsivo</a>
+                </li>
+                <li>
+                    <a href="pages/blog.html">Por que fazer páginas acessíveis?</a>
+                </li>
+                <li>
+                    <a href="pages/blog.html">JavaScript não obstrusivo</a>
+                </li>
+            </ol>
+            <a class="botao-index" href="pages/blog.html">Veja mais</a>
+        </section>
+    </main>
+    <footer>
+        <h2>Vamos conversar?</h2>
+        <p>Você pode entrar em contato comigo <a href="pages/contato.html">por e-mail</a> ou pelo telefone <a href="tel:+551234567890">(12) 3456-7890</a></p>
+    </footer>
 </body>
 </html>
