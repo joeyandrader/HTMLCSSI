@@ -14,21 +14,22 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
 
 -->
 # Aula 1: Iniciando HTML
-## 1. Aplicando o DocType na Pag HTML (Define a versão mais recente do HTML)
-  ### 1.1 O que é DocType e para o que serve?
+## 1.1 Aplicando o DocType na Pag HTML (Define a versão mais recente do HTML)
+  ### 1.1.1 O que é DocType e para o que serve?
     Doctype é uma instrução de qual tipo de documento HTML iremos trabalhar na pagina web.
 
     Doctype serve para definir a versao do HTML, como HTML 4.1 e HTML5
-  ### 1.2 Como aplicar o doctype?
+  ### 1.1.2 Como aplicar o doctype?
   Para aplicar basta por...
   ```<!DOCTYPE html>```
   Primeiro de tudo, antes da tag ```<html>```
 
-## 2. Atribuindo Tags HTML (Estrutura onde ficara todos os conteudo do site)
+## 1.2 Atribuindo Tags HTML (Estrutura onde ficara todos os conteudo do site)
 
 Colocamos todo o conteudo do site dentro de algumas tags: 
 
 ```html 
+<!DOCTYPE html>
 <html> 
     <head>
     <meta charset="UTF-8">
@@ -39,59 +40,131 @@ Colocamos todo o conteudo do site dentro de algumas tags:
     </body>
 </html>
 ```
-## 3. Entendo as diferença entre as 3 TAGS
+## 1.3 Entendo as diferença entre as 3 TAGS
 
-tag
+## HTML
 
-## 4. Atribuindo Tag LINK  REL (diz que tipo de conteúdo que queremos referenciar com ela)
+> A tag HTML informa ao navegador que este é um documento HTML
 
-explicar o que é o link rel como ela funciona (o que é **rel** e o que é **href**)
+>Representa também a raiz de um documento HTML
+
+> É um receptiente para outros elementos, exceto para o <!DOCTYPE>
 
 ```html
-<link rel="dlinksdd" href="fdssdfsdf">
+ <html>
+     Conteudo
+ </html>
 ```
 
+## HEAD
 
-## 5. Atribuindo Tag LINK > href (diz onde esse conteúdo se encontra)
-## 6. Atribuindo Tag META > charset="utf-8" (indicando que nossa página usa a codificação de caracteres UTF-8)
-Explicar aqui o que é META
+> A tag HEAD reprensenta um contêiner para conteudos introdutorios e conjuntos de links da sua pagina.
+
+>Informando icones para pagina , titulos e autorias.
 
 ```html
-<head>
-    <meta> Colocar aqui Exemplo de meta
-</head>
-```
-## 7. Adicionando title na Aba do Navegador.. dando um titulo ao nosso site
-Explicar aqui onde que costumamos colocar
-```Exemplo de como fazer```
-## 8. Tags HTML (Informa ao Navegador de qual lingaguem se trata, sendo assim HTML)
-
-Explicar aqui para que isso serve...
-Mosrtrar um exemplo de como fazer isso
-
-## 9. Tags HEAD (serve para agrupar informações para o navegador entender melhor nosso site)
-
-Explicar o que você quis dizer em agrupar
-```html
-<html DOC..>
+<html>
     <head>
-        <meta> Exemplo dos paranue que o navegador usa para entender melhor o nosso site
+    <meta name="description" content="Descrição do meta dentro da tag HEAD">
+        <meta charset="utf-8">
+        <title>Titulo site</title>
     </head>
 </html>
 ```
 
-## 10. Tags BODY (serve para agrupar as informações que queremos mostrar para os usuários)
+## BODY
 
-Explicar o que você quis dizer com agrupar as informações?
-Falar
- que o body é geralmente onde colocamos tudo
-## 11. Diferenças entre tags ```<p>``` = Paragrafos,  ```<strong>``` = Formatação em Negrito, ```<em>``` = Italico,  e atribuindo a pag html
+> A tag BODY é o corpo do elemento. onde vai conter todo o seu codigo de uma estrutura html.
+> Como texto, hiperlinks, imagens, tabelas, listas etc.
+
+```html
+<html>
+    <head>
+    <meta name="description" content="Descrição do meta dentro da tag HEAD">
+        <meta charset="utf-8">
+        <title>Titulo site</title>
+    </head>
+    <body>
+      The content of the document......
+    </body>
+</html>
+```
+
+## 1.4 Atribuindo Tag LINK  REL (diz que tipo de conteúdo que queremos referenciar com ela)
+
+> A tag "rel" define um atributo na qual aquela classe ta se referindo
+
+>Neste exemplo, o rel indica que o documento referenciado é uma folha de estilo:
+
+```html
+<link rel="stylesheet" href="css/estilo.css">
+```
+
+
+## 1.5 Atribuindo Tag LINK > href (diz onde esse conteúdo se encontra)
+  ```html
+ TAG LINK
+
+ <link> : define um link entre um documento e um recurso externo. usada para chamar uma folha de estilo externas.
+ ```
+ > Exemplo da tag Link
+ ```html
+ <head>
+   <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+ ```
+> O atributo href especifica o URL da página para onde o link vai. ou a folha de estilo externa
+
+> Neste Exemplo o href mostra onde o arquivo estilo.css está.
+
+```html
+<link rel="stylesheet" href="css/estilo.css">
+```
+>Na pasta CSS onde a folha estilo.css se encontra
+
+## 1.6 Atribuindo Tag META > charset="utf-8" (indicando que nossa página usa a codificação de caracteres UTF-8)
+```html
+TAG META
+
+<meta> : Fornece dados sobre o documento HTML
+geralmente sao usados para especificar as descrições da pagina, as palavras-chaves, o autor do documento
+```
+> Mais Exemplos de metas:
+ ```html
+ <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Curso Alura HTML">
+  <meta name="keywords" content="HTML5,CSS3,JavaScript">
+  <meta name="author" content="Joey Andrade">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+ ```
+## 1.7 Adicionando title na Aba do Navegador.. dando um titulo ao nosso site
+```html
+ TAG TITLE
+
+<title> : Define um titulo para seu documento HTML, é necessária em todos os documentos HTML.
+
+define um título na barra de ferramentas do navegador
+fornece um título para a página quando ela é adicionada aos favoritos
+exibe um título para a página nos resultados do mecanismo de pesquisa
+
+Nota que você NÃO pode ter mais de um elemento <title> em um documento HTML.
+```
+> Exemplo da tag Title
+ ```html
+ <head>
+  <title>Minha pagina Web</title>
+</head>
+ ```
+## 1.8 Diferenças entre tags ```<p>``` = Paragrafos,  ```<strong>``` = Formatação em Negrito, ```<em>``` = Italico,  e atribuindo a pag html
 
 O título já extá bem explicadinho (talvez passar para "11. Algumas tags" e aqui colocar a explicação de cada)
 ```html
     <h1> Explicação dessas tretas </h1>
 ```
-## 12. Iniciando Blog index.
+## 1.9 Iniciando Blog index.
+> Criando documento de Blog e index... Verificar no repositorio do github
 
 # Aula 2: Introdução ao CSS
 ## 2.1 Criando estilo na pagina HTML bio e blog
