@@ -2,11 +2,11 @@
 Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.br/course/introducao-html-css
 
 <p align="center">
-  <img src="https://givingdata.com/wp-content/uploads/2013/07/html-css-js.png">
+  <img src="https://givingdata.com/wp-content/uploads/2013/07/html-css-js.png" alt="Imagem de HTML JS E CSS">
 </p>
 
 <!-- GUI AQUI:
-
+jb
     Estava pensando que cada ">" era um título ou algo do tipo
     Acho que rola você colocar 8.5, 8.6 e 8.7 só dentro do 8.5 explicando direitin
 
@@ -105,7 +105,7 @@ Colocamos todo o conteudo do site dentro de algumas tags:
   ```html
  TAG LINK
 
- <link> : define um link entre um documento e um recurso externo. usada para chamar uma folha de estilo externas.
+ <link> : define um link entre um documento e um recurso externo, usada para chamar uma folha de estilo externas.
  ```
  > Exemplo da tag Link
  ```html
@@ -113,7 +113,7 @@ Colocamos todo o conteudo do site dentro de algumas tags:
    <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
  ```
-> O atributo href especifica o URL da página para onde o link vai. ou a folha de estilo externa
+> O atributo href especifica o URL da página para onde o link vai ou a folha de estilo externa.
 
 > Neste Exemplo o href mostra onde o arquivo estilo.css está.
 
@@ -126,8 +126,8 @@ Colocamos todo o conteudo do site dentro de algumas tags:
 ```html
 TAG META
 
-<meta> : Fornece dados sobre o documento HTML
-geralmente sao usados para especificar as descrições da pagina, as palavras-chaves, o autor do documento
+<meta> : Fornece dados sobre o documento HTML.
+Geralmente sao usados para especificar as descrições da pagina, as palavras-chaves e o autor do documento.
 ```
 > Mais Exemplos de metas:
  ```html
@@ -144,10 +144,8 @@ geralmente sao usados para especificar as descrições da pagina, as palavras-ch
  TAG TITLE
 
 <title> : Define um titulo para seu documento HTML, é necessária em todos os documentos HTML.
-
-define um título na barra de ferramentas do navegador
-fornece um título para a página quando ela é adicionada aos favoritos
-exibe um título para a página nos resultados do mecanismo de pesquisa
+Fornece um título para a página quando ela é adicionada aos favoritos.
+Exibe um título para a página nos resultados do mecanismo de pesquisa
 
 Nota que você NÃO pode ter mais de um elemento <title> em um documento HTML.
 ```
@@ -159,21 +157,21 @@ Nota que você NÃO pode ter mais de um elemento <title> em um documento HTML.
  ```
 ## 1.8 Diferenças entre tags "p", "strong" e  "em" , e ultilizando na pagina HTML.
 
-## 1.8.1 TAG "p"
-> A tag "p" usada geralmente para criaçoes de paragrafos. como o exemplo abaixo.
+## 1.8.1 TAG  "**P**"
+> A tag "p" usada geralmente para criaçoes de paragrafos, como o exemplo abaixo.
 ```html
     A tag <p>Paragrafo</p>
 ```
 > Podemos atribuir varios paragrafos ao conteudo HTML
 
-## 1.8.2 TAG "strong"
-> Ja com a tag "strong" define um texto, conteudo importante. alem de deixar o texto em "NEGRITO" por assim dizer..
+## 1.8.2 TAG "**STRONG**"
+> Ja com a tag "strong" define um texto, conteudo importante, alem de deixar o texto em "**NEGRITO**" por assim dizer..
 ```html
     <strong> Conteudo importante da pagina e negrito </strong>
 ```
 ## 1.8.3 TAG "em"
 
->A tag "em" enfatiza um texto da pagina HTML, alem de deixar o texto "ITALICO" por assim dizer..
+>A tag "em" enfatiza um texto da pagina HTML, alem de deixar o texto "ITALICO" por assim dizer.
 
 ```html
     <em> Conteudo infatizado e italico </em>
@@ -193,12 +191,12 @@ Nota que você NÃO pode ter mais de um elemento <title> em um documento HTML.
 ```
 ## 2.2 Atribuindo estilo a uma tag especifica:
 
->Vocè também pode por um estilo para um seletor especifica como o exemplo abaixo:
+>Você também pode por um estilo para um seletor especifica como o exemplo abaixo:
 
 ```html
 <style type="text/css">
     h1 {
-    	font-size:16px;
+    	font-size: 16 px;
     }
 </style>
 ```
@@ -217,17 +215,17 @@ Nota que você NÃO pode ter mais de um elemento <title> em um documento HTML.
 OBS: Tema de um conteudo do alura.
 
 ## 2.4 Criando Estilo separado em um novo arquivo!!! css/estilo.css
->Como dito, voce pode criar um novo arquivo .. nomear e por a extensão .css no fim do arquivo.
+>Como dito, voce pode criar um novo arquivo, nomear e por a extensão .css no fim do arquivo.
 
 ```
 style.css
 ```
 
-> E por fim chamar esse arquivo dentro do seu documento HTML.
+> E por fim chamar esse arquivo dentro do seu documento HTML utilizando a tag rel que mostramos acima.
 
 ## 2.5 Chamando estilo atravez da tag 
 
->Semanticamente falando ao usar o link para chamar a sua folha de estilo dará a voce mais organizacão, e nao deixa seu documento HTML sujo e bagunçado com varios codigos css.. assim facilita mais na hora de trabalhar o estilo do seu site... vamos dividir as coisas e deixar mais organizados, por favor ne.. :stuck_out_tongue:
+>Semanticamente falando ao usar o link para chamar a sua folha de estilo dará a voce mais organizacão, e nao deixa seu documento HTML sujo e bagunçado com varios codigos css, assim facilita mais na hora de trabalhar o estilo do seu site, vamos dividir as coisas e deixar mais organizados, por favor ne. :stuck_out_tongue:
 
 >Para chamar sua folha de estilo basta fazer igual o exemplo abaixo:
 
@@ -244,13 +242,13 @@ style.css
     }
 </style>
 ```
->Como o exemplo acima, vimos que a fonte "Time New Roman" é a primeira fonte a ser chamada ao vizualizar nosso site, Caso o nosso usuario nao tiver essa fonte, ele entao entrará no...
+>Como o exemplo acima, vimos que a fonte "Time New Roman" é a primeira fonte a ser chamada ao vizualizar nosso site. Caso o nosso usuario nao tiver essa fonte ele entao entrará no...
 
 >Fonte Secundaria. que seria qualquer fonte do tipo serif... ou outra que você definir.
 
 ## 2.7 Entendendo as cores em RGB...
 <p align="center">
-  <img src="https://dicasdeprogramacao.com.br/images/entenda-como-funcionam-os-codigos-de-cores-rgb/cores-rgb.jpg" width="150" heigth="150">
+  <img src="https://dicasdeprogramacao.com.br/images/entenda-como-funcionam-os-codigos-de-cores-rgb/cores-rgb.jpg" width="150" height="150" alt="imagem de cores RGB">
 </p>
 
  >As cores RGB = RED, GREEN e BLUE que no português seria, Vermelho, Verde e Azul.3
@@ -258,6 +256,8 @@ style.css
  >Apartir dessa combinação é possiveis criar diversas cores para seu conteudo HTML com numeros que varia de 0 a 225.
 
  >O branco é quando se tem o maior valor para as 3 cores, ou seja, 255 para Red, Green e Blue. E o preto é formado quando se tem o valor 0 para essas 3 cores.
+
+ >Assim sendo, quanto maior o valor mais claro fica e quanto menor o valor mais escuro fica.
 
  ```html 
   <style type="text/css">
@@ -269,7 +269,7 @@ style.css
 
 ## 2.8 Cores mais especificas hexadecimal, #FFF, #EE8...
 
-> Além disso a outras formas mais faceis de definir uma cor a sua pagina HTML...
+> Além disso a outras formas mais faceis de definir uma cor a sua pagina HTML.
  
  ```html 
   <style type="text/css">
@@ -298,60 +298,219 @@ style.css
 > Aprofundamos mais no codigo HTML. Abaixo outras formas de ultilizar tags no nosso HTML.
 
 ## 3.1 Atribuindo links em textos 
+>Quando queremos atribuir algum link em nossa pagina HTML, onde ao clicar ser direcionado a outra pagina temos duas formas de fazer esse caminho. Usamos um atributo de link como o exemplo abaixo.
 
-Explicar o que é link absoluto
-Explicar o que é link relativo
 ```html
-<a href=""> (links absolutos , links relativos)
+<a href=""> (links absolutos , links relativos) </a>
 ```
+>A propriedade "a href" especifica um link a seu texto.
+
+>como vimos no exemplo acima temos link Absolutos e links relativo. Abaixo temos 2 exemplos. olhem e veja a diferença.
+
+### Links Absolutos:
+```html
+<a href="http://www.meusite.com.br/caminho.html">Home</a>
+```
+### Links Relativos:
+```html
+<a href="/caminho.html">Home</a>
+```
+
 ## 3.2 Adicionando IMG na pagina 
-explicar o que é a tag IMG
+
+>Uma coisa otima do HTML é a possibilidade de adicionar imagem em nosso documento HTMl.
+
+>A Tag "IMG" define a imagem em nossa pagina HTML. Tendo com mais duas propriedades "OBRIGATORIA" que sao o "src" e o "alt".
+
+>Como por exemplo:
 
 ```html
-<img src=""> exemplo de como colcoar
+<img src="exemplo de como colocar" alt="Exemplo da tag img">
+
+Nota q é uma Tag onde nao é nescessario fechar com </img>
 ```
+<p align="center">
+<img src="https://4.bp.blogspot.com/-0-_9i1nFi7k/VQgiuUl5ogI/AAAAAAAAAJ0/V2orNEV75bo/w800-h800/tag%2Bimg.png" width="150" height="110" alt="imagem da tag IMG">
+</p>
+
+>A imagem acima foi atribuida da mesma forma como o exemplo de codigo mais acima, basta por o link da pagina. Como vimos antes podemos por links relativo ou absoluto, nesse caso a imagem esta com link absoluto.
+
 ## 3.3 Tag alt="" tornando a pagina mais acessivel a deficientes visuais.
-Explicar pq isso deixa a página mais acessível
-Explicar o que acontece quando colocamos o alt
+
+>Como o titulo ja fala um pouco da TAG "alt" notamos entao que.
+
+>O atributo alt é necessário porque ele especifica um texto alternativo para uma imagem se a imagem não puder ser exibida.
+
+>O atributo alt fornece informações da imagem para nosso usuario caso ele por algum motivo não puder visualizá-lo (devido à conexão lenta, a um erro no atributo src ou se o usuário usar um leitor de tela).
+
+>Vimos muitos exemplos da TAG "**IMG**" COM "**ALT**" aqui vai mais um.
 
 ```html
-    <h1> Colocar um exemplo de alt em uma imagem </h1>
+    <img src="caminhoDaImagem" alt="Imagem sobre tal coisa">
 ```
 ## 3.4 Atribuindos citaçoes com tags ```<blockquote>``` e tag ```<cite>```
-Explicar o que é o **blockquote**
-Explicar para o que serve **blockquote**
-Explicar o que é o **cite**
-Explicar para o que serve **cite**
+
+>Temos uma tag chamado "blockquote" que especifica uma seção na qual foi citado de uma outra fonte.
+```html
+    <blockquote> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </blockquote>
+```
+>a imagem abaixo vai te da uma deia parecida.
+<p align="center">
+<img src="https://i0.wp.com/images.jcubic.pl/blockquote.png" alt="Imagem de citação blockquote" width="150">
+</p>
+
+> Quando usamos a tag "blockquote", provavelmente também usaremos a tag "cite".
+
+>A Tag "cite" ela define um titulo.
+
+>Titulo de uma obra, trabalho, um livro uma musica, filmes e etc...
+
+>Um Exemplo:
+
+```html
+<p><cite>O Poderoso Chefao</cite>é um filme norte-americano de 1972.e etc e etc....</p>
+```
 
 ## 3.5 HTML e Semântica ```<main>```: conteúdo principal da página
-Explicar o que é a semântica
-Explicar o que é a semântica main 
-Explicar pq é bom fazer isso
+
+>A semântica no HTML é muito importante. Tem como objetivo descrever significado do conteudo no documento HTMl. tornando mais faceis para outros programadores que forem ler seu codigo HTML..
+
+>O Elemtno "main" especifica o conteudo principal do seu documento HTML. E de maior relevância dentro da sua pagina, para ser considerada bem construida. tem como apresentar apenas um conteudo principal.
+
+>Exemplos de de como usar a tag "main"
+
+```html
+<main>
+  <h2>Titulo</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod ...</p>
+  
+  <article>
+     <h3>Subtítulo</h3>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum...</p>
+   </article>
+</main>
+```
 
 ## 3.6 outras tags importantantes com semântica
-- ```<header>```: cabeçalho da página ou de uma região dela
-- ```<header>```: 
-- ```<footer>```: mesma ideia da tag <header> para o rodapé
-- ```<aside>```: conteúdo auxiliar ao conteúdo principal, como links relacionados ao conteúdo
-- ```<article>```: conteúdo que, por si só, já tem um sentido completo, como um post de um blog ou uma notícia
-- ```<section>```: parte/seção de uma página ou texto
+- ```<header>```: cabeçalho da página ou de uma região dela.
+>Você pode ter vários elementos "header" em um documento
+```html
+<article>
+  <header> <<<-------
+    <h1>Most important heading here</h1>
+    <h3>Less important heading here</h3>
+    <p>Some additional information here</p>
+  </header> <<<-------
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+```
+- ```<footer>```: A tag "footer" define um rodapé para um documento ou seção.
 
-```html 
-    exemplo usando todas as coisas acima (header, footer, aside, article, section)
+>Você pode ter vários elementos "footer" em um documento.
+
+>Como Exemplo:
+```html
+<footer>
+  <p>Postado Por: Joel</p>
+  <p>Contato: <a href="mailto:exemplo@email.com">
+  exemplo@email.com</a>.</p>
+</footer>
 ```
 
+- ```<aside>```: conteúdo auxiliar ao conteúdo principal, como links relacionados ao conteúdo
+>define algum conteúdo além do conteúdo em que é colocado.
+
+>Como Exemplo:
+
+```html
+<p>Fui para Bahia de carro com minha familia. tem a gruta é tudo lindo e maravilhoso ...</p>
+
+<aside>
+  <h4>Bom jesus da lapa - Bahia</h4>
+  <p>Bom jesus da lapa é uma otima cidade da Bahia..</p>
+</aside>
+```
+- ```<article>```: conteúdo que, por si só, já tem um sentido completo, como um post de um blog ou uma notícia.
+
+>especifica um conteudo como exemplo:
+```html
+<article>
+  <h1>Meu Titulo</h1>
+  <p>Minhas Informaçoes</p>
+</article>
+```
+
+- ```<section>```: parte/seção de uma página ou texto
+>Define seções em um documento, como capítulos, cabeçalhos, rodapés ou quaisquer outras seções do documento.
+
+>Como Exemplo
+```html 
+<section>
+  <h1>Titulo</h1>
+  <p>Aqui Explicamos o que é sobre o titulo, ou outras coisas ..</p>
+</section>
+```
+> uma imagem de exemplo de como podemos usar esses conteudos:
+
+<p align="center">
+<img src="https://ayudawordpress.com/wp-content/uploads/2010/05/estructura-tema-html5-500x250.gif" width="250" height="180" alt="Imagem resumida de como usar todos os elementos acima">
+</p>
 
 ## 3.7 Listas com tag ```<ul>``` e ```<li>```
-O que é uma lista
-O que é a **ul** e a **li** (diferencça entre elas)
+
+>Quando quisermos criar uma lista temos uma tag especifica para esses tipos de coisa que é a tag "ul"
+
+>Essa tag define uma lista não ordenada.
+
+>Use a tag "ul" junto com a tag "li" para criar listas não ordenadas
+
+> A Tag "li" define um item da lista
+
+>Como Exemplo
 ```html
-    Exemplo de uma lista de compras
+   <ul>
+     <li>Cafe</li>
+     <li>Leite</li>
+     <li>Suco</li>
+   </ul>
 ```
+
+>A imagem define melhor o que quero dizer:
+
+<p align="center">
+<img src="https://image.slidesharecdn.com/aula5-141124155334-conversion-gate02/95/aula5-listas-html-5-3-638.jpg?cb=1416844504" width="200" height="130">
+</p>
+
 ## 3.8 Criando entidades no HTML
-O que é uma entidade no HTML
+
+>ENTIDADES no HTML são simbolos que desejamos usar em nosso HTML..
+
+>São usadas para exibir caracteres reservados em HTML
+
+>Não basta apenas usar um atalho do teclado para por esse simbolo como > < © e etc. Ou ate mesmo pode nao conter no teclado e entao usamos os codigos.
+
+>E mais facil voce por em codigo como o exemplo abaixo, assim o navegador vai interpretar melhor:
+
 ```html
-Exemplo do $copy
+<footer> 
+ Todos os Direitos Reservados &copy;
+</footer>
+
+ou
+
+<footer> 
+ Todos os Direitos Reservados &#169;
+</footer>
+
+Ficaria Assim:  Todos os Direitos Reservados ©
 ```
+
+>Imagem de Exemplo
+
+> Aqui a uma lista grande de varios codigos de entidades 
+
+><a href="http://arquivo.devmedia.com.br/artigos/devmedia/html-entities.html">Lista de Entidades</a>
+
 
 ## 3.9 Seletores de descendência
 O que são seletores de descendência
