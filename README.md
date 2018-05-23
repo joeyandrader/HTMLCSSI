@@ -280,7 +280,7 @@ style.css
  ```
  > Uma cor pode ser especificada usando um valor hexadecimal
 
->Aqui voce encontra varias cores em Hexadecimal:
+>Aqui voce encontra varias cores em Hexadecimal o nome e o formato em RGB:
 <a href="https://site112.com/tabela-cores-html" target="_blank">Tabelas de cores em Hexadecimal</a>
 
 > e por fim podemos usar nomes em Inglês da propria cor.
