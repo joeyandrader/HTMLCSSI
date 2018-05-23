@@ -157,12 +157,28 @@ Nota que você NÃO pode ter mais de um elemento <title> em um documento HTML.
   <title>Minha pagina Web</title>
 </head>
  ```
-## 1.8 Diferenças entre tags ```<p>``` = Paragrafos,  ```<strong>``` = Formatação em Negrito, ```<em>``` = Italico,  e atribuindo a pag html
+## 1.8 Diferenças entre tags "p", "strong" e  "em" , e ultilizando na pagina HTML.
 
-O título já extá bem explicadinho (talvez passar para "11. Algumas tags" e aqui colocar a explicação de cada)
+## 1.8.1 TAG "p"
+> A tag "p" usada geralmente para criaçoes de paragrafos. como o exemplo abaixo.
 ```html
-    <h1> Explicação dessas tretas </h1>
+    A tag <p>Paragrafo</p>
 ```
+> Podemos atribuir varios paragrafos ao conteudo HTML
+
+## 1.8.2 TAG "strong"
+> Ja com a tag "strong" define um texto, conteudo importante. alem de deixar o texto em "NEGRITO" por assim dizer..
+```html
+    <strong> Conteudo importante da pagina e negrito </strong>
+```
+## 1.8.3 TAG "em"
+
+>A tag "em" enfatiza um texto da pagina HTML, alem de deixar o texto "ITALICO" por assim dizer..
+
+```html
+    <em> Conteudo infatizado e italico </em>
+```
+
 ## 1.9 Iniciando Blog index.
 > Criando documento de Blog e index... Verificar no repositorio do github
 
@@ -212,6 +228,9 @@ style.css
 ## 2.5 Chamando estilo atravez da tag 
 
 >Semanticamente falando ao usar o link para chamar a sua folha de estilo dará a voce mais organizacão, e nao deixa seu documento HTML sujo e bagunçado com varios codigos css.. assim facilita mais na hora de trabalhar o estilo do seu site... vamos dividir as coisas e deixar mais organizados, por favor ne.. :stuck_out_tongue:
+
+>Para chamar sua folha de estilo basta fazer igual o exemplo abaixo:
+
 ```html
 <link rel="stylesheet" href="css/estilo.css">
 ```
@@ -229,23 +248,57 @@ style.css
 
 >Fonte Secundaria. que seria qualquer fonte do tipo serif... ou outra que você definir.
 
-## 2.7 Entendendo as cores RGB(255,255,255) Vermelho, Verde, Azul,...
-Explicar aqui que toda cor pode ser criada a partir a combinação destas 3 cores
-Explicar aqui a ordem dentro do RGB (**R**ed, **G**reen, **B**lue)
+## 2.7 Entendendo as cores em RGB...
+<p align="center">
+  <img src="https://dicasdeprogramacao.com.br/images/entenda-como-funcionam-os-codigos-de-cores-rgb/cores-rgb.jpg" width="150" heigth="150">
+</p>
+
+ >As cores RGB = RED, GREEN e BLUE que no português seria, Vermelho, Verde e Azul.3
+
+ >Apartir dessa combinação é possiveis criar diversas cores para seu conteudo HTML com numeros que varia de 0 a 225.
+
+ >O branco é quando se tem o maior valor para as 3 cores, ou seja, 255 para Red, Green e Blue. E o preto é formado quando se tem o valor 0 para essas 3 cores.
+
+ ```html 
+  <style type="text/css">
+    body {
+         background-color: RGB(255, 255, 255);
+    }
+</style>
+ ```
+
 ## 2.8 Cores mais especificas hexadecimal, #FFF, #EE8...
 
-O que são essas cores
-Quanto maior a cor mais clara ou mais esscura ?
-Explicar o que é hexadecimal (decimal vai de zero a 10 hexadecimal vai de 0 a F (ou seja, 16: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F))
-Quanto mais próximo do zero mais escuro, quando mais próximo F mais claro (ou seja, #FFF é branco e #000 é preto)
+> Além disso a outras formas mais faceis de definir uma cor a sua pagina HTML...
+ 
+ ```html 
+  <style type="text/css">
+    body {
+         background-color: #FFFFFF;
+    }
+</style>
+ ```
+ > Uma cor pode ser especificada usando um valor hexadecimal
 
-Segue a ordem do RGB (ou seja, se você colocar #F00 daria a cor vemelha)
-Explicar que cores seriam #0F0 e #00F
+>Aqui voce encontra varias cores em Hexadecimal:
+<a href="https://site112.com/tabela-cores-html" target="_BLANK">Tabelas de cores em Hexadecimal</a>
+
+> e por fim podemos usar nomes em Inglês da propria cor.
+> 
+ ```html 
+  <style type="text/css">
+    body {
+         background-color: blue;
+    }
+</style>
+ ```
 
 # Aula 3: Aprofundando no HTML
 
+> Aprofundamos mais no codigo HTML. Abaixo outras formas de ultilizar tags no nosso HTML.
 
 ## 3.1 Atribuindo links em textos 
+
 Explicar o que é link absoluto
 Explicar o que é link relativo
 ```html
