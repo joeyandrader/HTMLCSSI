@@ -281,7 +281,7 @@ style.css
  > Uma cor pode ser especificada usando um valor hexadecimal
 
 >Aqui voce encontra varias cores em Hexadecimal:
-<a href="https://site112.com/tabela-cores-html" target="_BLANK">Tabelas de cores em Hexadecimal</a>
+<a href="https://site112.com/tabela-cores-html" target="_blank">Tabelas de cores em Hexadecimal</a>
 
 > e por fim podemos usar nomes em Inglês da propria cor.
 > 
