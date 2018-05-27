@@ -560,7 +560,7 @@ Ficaria Assim:  Todos os Direitos Reservados ©
 >Abaixo uma imagem para melhor entender sobre ambos.
 
 <p align="center">
-<img src="https://www.criarsites.com/wp-content/uploads/2012/08/lado-direito.png " width="250" height="200">
+<img src="https://www.criarsites.com/wp-content/uploads/2012/08/lado-direito.png" width="250" height="200">
 </p>
 
 >O Element.style {
@@ -571,23 +571,15 @@ Ficaria Assim:  Todos os Direitos Reservados ©
 
 >É importante isso porque você pode fazer uma alteração, verificar como ficou, se gostar é so jogar para seu documento HTML.
 
-## 4.1 Resolvendo ou procurando erros de digitação onde o inspetor mostra em casos dificeis.
+## 4.3 Resolvendo ou procurando erros de digitação onde o inspetor mostra em casos dificeis.
 
 >Outra coisa legal é você verificar se há algum erro no seu codigo HTML. O navegador consegue achar facilmente para gente.
 
+<p align="center">
+<img src="https://developers.google.com/web/tools/chrome-devtools/console/images/track-exceptions-example-error-message-expanded.png?hl=pt-br" width="400" height="200">
+</p>
 
-## 4.1 Usando o inspetor a nosso favor para melhor criação de uma pagina HTML, CSS
-
-Explicar como fazer isso e as vantagens de usar o inspetor
-
-
-## 4.1 Alterando a página pelo próprio navegador
-
-Explicar como fazer isso
-
-## 4.1 Atribuindo estilo pelo proprio elemento do inspetor, ou alterando tags
-
-Explicar como fazer isso
+>Como ver na image acima, Sempre que tiver um X vermelho na aba superior, é sinal de que alguma linha está errada. basta clicar no icone ele vai te mostrar os erro.
 
 # Aula 5: Aprimorando o Layout
 
