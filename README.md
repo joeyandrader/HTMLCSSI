@@ -583,75 +583,192 @@ Ficaria Assim:  Todos os Direitos Reservados ©
 
 # Aula 5: Aprimorando o Layout
 
-## 5.1 Aplicando Espaçamento entre elementos ultilizando Padding , margin
+## 5.1 Aplicando Espaçamento entre elementos ultilizando Padding e Margin.
  - ```Margin```: controla o espaço entre elementos de blocos.
  - ```Padding```: controla o espaço entre o conteúdo de um elemento e sua borda.
 
-Exemplo com código
-Colocar uma imagem explicando isso
+<p align="center">
+<img src="https://static.daniweb.com/attachments/4/3cf29905c4a515a24556c7d869a599a3.png" width="400" height="200">
+</p>
 
 ## 5.2 Propriedades Width , Height que controla apenas o tamanho de um elemento
 
-Explicar o que é width 
-Explicar o que é Height
-Exemplo com código
+- ```Width```: Especifica a largura de um elemento HTML.
+
+- ```Height```: Especifica a altura de um elemento HTML.
+
+>Por exemplo, para que o corpo de seu site tenha uma altura de 800 pixels e 500 pixels de largura, seria na folha de estilo mais ou menos assim:
+
 ```css
-    .minhaDiv {
-        height: "4324"
+    .body {
+        height: 800px;
+        width:  600px;
+        border: solid;
     }
 ```
+>Abaixo uma imagem para melhor representar:
+
+<p align="center">
+<img src="https://openhome.cc/eGossip/JavaScript/images/ElementDimensions-2.png" width="400" height="200">
+</p>
+
 ## 5.1 Propriedades Box-Sizing controla apenas como a largura e a altura de um elemento deve ser calculada.
 
-Explicar o que é box-sizing
-Colocar uma imagem que explica
-Colocar exemplo com código
+>```Box-Sizing``` : permite incluir o preenchimento e a borda na largura e altura totais de um elemento.
+
+>Isso porque quando definimos uma largura / altura para o nosso elemento, geralmente aparece maior do que definimos.
+
+>EXEMPLO:
+<p align="center">
+<img src="https://cdn-images-1.medium.com/max/1600/1*guVy0tXjMKekfweA8rxsnA.png" width="450" height="200">
+</p>
+
+>Como mostrado na figura, exemplo #aa, não definimos nenhum tamanho de caixa. Por padrão, é a caixa de conteúdo. Portanto, a largura real desse elemento se torna 100 + 10 * 2 (preenchimento) + 5 * 2 (margem) = 130px.
+
+>Ja o exemplo #bb, definimos o tamanho da caixa como: border-box. Portanto, a largura real desse elemento é 100px. Mas a largura de conteúdo exibida é 100 – 10 * 2 (preenchimento) - 5 * 2 (margem) = 70.
 
 ## 5.1 Propriedades Line-height controla apenas a altura entre as linhas de texto da página
 
-Explicar o que é Line-sizing
-Colocar uma imagem que explica
-Colocar exemplo com código
+>```line-height```: A propriedade especifica a altura de uma linha para a outra.
+
+>Observe essa image e você terá uma noção.
+
+<p align="center">
+<img src="https://pearsonified.com/wp-content/uploads/2011/12/font-size-line-height.png" width="350" height="200">
+</p>
+
+>Ou teste em seu codigo HTML.
+
+```css
+
+    .p {
+        line-height: 10px;
+    }
+
+```
+>Jogue esse codigo em qualquer estilo css para definir o height da tag ```<p>``` entre as linhas, altura de ```10px```.
 
 ## 5.1 Atribuindo Bordas nos elementos, Tipos de bordas e espaçamentos e cores
 
-Explicar o que é essas bordas
-Colocar exemplo com código
-Colocar uma imagem de como fica
+>As bordars na propriedades CSS permitem que você especifique o estilo, a largura e a cor da borda de um elemento.
+
+```css
+    div {
+        border:1px solid black;
+    }
+
+Aqui definimos uma div com borda de 1px solido da cor preta
+```
+>Exemplos de bordas.
+
+<p align="center">
+<img src="https://codando.files.wordpress.com/2008/03/image-thumb6.png?w=702&h=368" width="400" height="250">
+</p>
+
+>Alem de que podemos combinar as bordas.
+
+```css
+div {border-style: dotted dashed solid double;}
+```
+
+>A ```border-style``` propriedade pode ter de um a quatro valores (para a borda superior, borda direita, borda inferior e borda esquerda).
 
 # Aula 6: Construindo uma base sólida
 
 ## 6.1 Aplicando estilo de Reset.css na pagina , resetando estilos padroes de navegadores.
 
-Explicar que temos um estilo padrão do css no navegador
-Pq temos que resetar? Importância disso
-Como fazer (para fazer isto basta criar um ....)
-Exemplo de código
+>O navegador possui valores PADRÃO em sua navegação, e variam de um navegador para outro.
+
+>por Exemplo, a margem padrão do body pode ser 10px no Internet Explorer e 8px no Firefox.
+
+>O CSS Reset veio para tentar diminuir estes problemas. O objetivo dele é resetar todas as propriedades das tags htmls. A margem, a largura, etc… sempre vão ser iguais independente do browser que estiver renderizando o site.
+
+>A forma mais interessante de resetar o navegador seria usando o elemento mais facil ```* { }```.
+
+>Exemplo:
+
+```css
+    * {
+        margin:0;
+        padding:0;
+    }
+```
+
+<p align="center">
+<img src="https://images.ctfassets.net/8cb1vflpheox/1XSflhjB20ikEaSmeSawGy/44c37f670a7f8c17ce05edfed20a27a3/css-reset-padding.png" width="400" height="250">
+</p>
+
+>Lembrando que existe varios estilo de Reset.CSS free pela internet que vale apena da uma olhada e ultilizar.
 
 ## 6.2 Entendendo e atribuindo ordem de estilo, e o que pode afetar.
 
-Pq a ordem importa
-Mostrar um exemplo de dando merda
+>Ordem de onde aplicar nossas folhas de estilos são bem interessantes. Devemos ter cuidado e atenção com isso.
+
+>Como por exemplo, sobre o que falamos do ```RESET.CSS```, Se queremos usar o nosso reset como base para nosso css, devemos importá-lo antes do nosso CSS na página:
+
+```html
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="bio.css">
+</head>
+
+```
 
 ## 6.1 Entendo sobre conflitos no css.
 
-O que é conflito no css
-Como eles ocorrem
-Como evitar
+>Quando duas declarações conflitam no CSS, o navegador usa aquela que for declarada por último. Por Exemplo:
+
+```css
+
+h1 {
+    font-size: 100%;
+    color: red;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+```
+> No exemplo acima, o estilo vai ser aplicado nos ```<h1>```. Então o navegador vai fazer o seguinte:
+> 
+- Aplicar o ```font-size: 100%```
+- Aplicar o ```color: red```
+- Aplicar o ```font-size: 30px```, sobrescrevendo o ```font-size: 100%``` anterior.
+- Aplicar o ```font-weight: bold```
+
+>Ou seja, o navegador vai simplesmente aplicando todas as regras que ele encontrar para um elemento.
 
 # Aula 7: Um pouquinho de posicionamento
 
 ## 7.1 Atribuindo Posicionamento em propriedades da pagina
 
-Explicar um pouco melhor o que ele disse aqui
+>Podemos Posicionar alguns elementos do nosso documento HTML usando algumas propriedades como o ```Display```:
 
 ## 7.2 atribuindo css display
-O que é o display
-Exemplo
+
+>**Display**: Propriedade especifica o comportamento de exibição (o tipo de caixa de renderização) de um elemento.
+
+```css
+    p {
+        display: declaração; 
+    }
+     conteudo invisivel
+```
 
 ## 7.3 Display : inline, block , inline-block, none.
-Qual a diferença entre inline, block, inline-block, none
+>Temos 4 propriedades mais comum do **display**
 
-Exemplo com código
+- ```None``` : Permite você desativar a exibição de um elemento.
+ - ```Inline```: Faz com que todos os elementos seja alinhados em uma unica linha.
+- ```Block```: Faz com que todos os elementos tenha uma quebra de linha.
+- ```Inline-Block```: Permite definir uma largura e altura no elemento. Além disso, com ```display: inline-block;``` , as margens superior / inferior são respeitadas.
+
+>Uma otima imagem que representa isso
+<p align="center">
+<img src="http://4.bp.blogspot.com/-TiwOixlooJk/U4UyEnv_XpI/AAAAAAAACFs/NuuLz2IvoZ4/s1600/css-display-block-vs-inline-block.png" width="500" height="250">
+</p>
 
 # Aula 8: Mais seletores
 
