@@ -513,26 +513,67 @@ Ficaria Assim:  Todos os Direitos Reservados ©
 
 
 ## 3.9 Seletores de descendência
-O que são seletores de descendência
-Explicar exemplo da "nav a, main h1"
-Mostrar exemplo com código
+>O Seletor descendente é aplicado a um determinado elemento do documento, que descenda de outro. Exemplo, o elemento ```<em>``` está dentro diretamente do elemento ```<p>```, mas indiretamente dentro do elemento ```<div>```.
 
+```html
+    <div>
+        <p>
+            <em>
+                conteudo
+            </em>
+        </p> 
+    </div>
 
+    Ficando assim na folha de estilo
+    <style>
+        div em{
+             color: red;
+        }
+    </style>
+```
+> Lembrando que não é preciso definir todas as tags ate chegar na tag ```<em>```. Onde o elemento ```<em>```, está dentro de ```<p>```, que está dentro de ```<div>```
+
+```css
+    div p em {
+        color: red;
+    }
+```
 # Aula 4: O navegador trabalhando ao nosso favor
+>Como Vimos no proprio titulo da Aula 4, podemos usar o navegador ao nosso favor para ajudar a projetar nosso site melhor ainda.
 
-## 4.1 Abrindo inspetor de paginas no google crhome
-Explicar como fazer isso (pode ser por texto mesmo)
-Mostrar o comando no chrome para fazer isso (```ctrl+...```)
+## 4.1 Abrindo inspetor de paginas no google crhome e FireFox
 
-## 4.2 Atribuindo e editando propriedades do HTML e CSS
+>Antes de iniciar pelo navegador precisamos abrir o inspetor do navegador. Bom eu mexo com o Google Crhome, mais vou por atalhos do FireFox também.
 
-Explicar que da para mudar  o html e css da página local
-Explicar como fazer isso
+>No Google Crhome o atalho mais rapido e facil é o ```F12``` ou ```Ctrl + Shift + I```.
+
+>No FireFox, se não me engano o comando seria ```Ctrl + Shift + I``` também.
+
+## 4.2 Editando e adicionando propriedades do HTML e CSS com o inspetor.
+
+>Com o inspetor aberto, podemos alterar varias coisas do seu documento HTML. Como o proprio HTML e CSS, sem contar que podemos adicionar novas tag no css e ver em "tempo real" as modificações.
+
+>Para fazer isso é bem simples .. No seu codigo HTML ao clicar em qualquer tag, conseguimos alterar seu nome.
+
+>Na parte do CSS, praticamente a mesma coisa, basta alterar ou adicionar um novo campo.
+
+>Abaixo uma imagem para melhor entender sobre ambos.
+
+<p align="center">
+<img src="https://www.criarsites.com/wp-content/uploads/2012/08/lado-direito.png " width="250" height="200">
+</p>
+
+>O Element.style {
+>    
+>} é como se fosse o body da pagina, o que voce por ali vai diferenciar em todo o conteudo do seu documento HTML.
+
+>Onde está escrito Matched CSS Rules: Ali encontra todo o seu codigo CSS na qual você escreveu no seu documento. e assim voce pode fazer edições e acompanhar as alteraçoes.
+
+>É importante isso porque você pode fazer uma alteração, verificar como ficou, se gostar é so jogar para seu documento HTML.
 
 ## 4.1 Resolvendo ou procurando erros de digitação onde o inspetor mostra em casos dificeis.
 
-Explicar o que é o inspetor
-Explicar como fazer isso
+>Outra coisa legal é você verificar se há algum erro no seu codigo HTML. O navegador consegue achar facilmente para gente.
 
 
 ## 4.1 Usando o inspetor a nosso favor para melhor criação de uma pagina HTML, CSS
