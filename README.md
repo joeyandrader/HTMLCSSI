@@ -774,30 +774,101 @@ h1 {
 
 ## 8.1 Atribuindo novas funcionalidades ao css...
 
-Quais novas funcionalidades?
-Explicar cada uma delas
-Colocar código
+>Como vimos ali em cima varios exemplos que eu dei de css usando nomes das proprias TAGS como ```p {}```, ```div {}```, ```main {}``` e etc.
 
-## 8.2 aplicando novas regras como CLASS e ID's
+>Podemos da nomes para Cada um desses elementos o que torna bem mais legivel o nosso codigo CSS.
 
-## 8.3 Verificando as diferenças entre os atributos class e id's
+```css
+    noticia {
+        color: red;
+    }
+    data-post {
+        color: blue;
+    }
+```
 
-Qual a diferença entre ID e CLASS?
-Pq usamos cada uma ?
-Exemplo de código css
+## 8.2 Aplicando novas regras com as Class e Id's e Verificando as diferenças entre os atributos.
 
-## 8.4 testando e aplicando na pagina html
-<!-- GUI AQUI:
+>Podemos aplicar essas novas regras, no nosso documento CSS, de ```CLASS``` e ```ID's```.
 
-    Estava pensando que cada ">" era um título ou algo do tipo
-    Acho que rola você colocar 8.5, 8.6 e 8.7 só dentro do 8.5 explicando direitin
+>Como exemplo abaixo: Temos uma ```CLASS``` e um ```ID```.
 
-    Isso pode ter acontecido para outras coisas, se vocÊ ver que não faz sentido pode juntar itens.
+```css
+    #noticia {
+        color: red;
+    }
+    .data-post {
+        color: blue;
+    }
+```
+>### Note que a primeira declaração está com um ```"#"```, e a segunda com um simples ```"."```
 
--->
-## 8.5 Conflito entre classes e id.
-Explicar um pouco mais sobre o conflito
+> - Como o id é um identificador, um nome para um elemento, ele **não pode se repetir na página**. Quer dizer, se repetirmos um id na página, o CSS e o JavaScript podem deixar de funcionar corretamente.
 
+>### Quando se tem um ```"."``` siginifica que aquela declaração é um ```Class```.
+
+> - Enquanto o **ID não pode ser repetido**, o **CLASS é feito para ser repetido**. Podemos sem nenhum problema usá-lo para agrupar varios estilos na pagina HTML.
+
+## 8.3 Conflito entre classes e id.
+
+>Creio que nao seja uma boa ideia usar id para estilizar, pois o estilo definido dessa forma não é reaproveitável.
+
+>Mas existe um outro problema com o id. Se tivermos um elemento 
+
+```html
+  <div id="mensagem" class="centralizado">
+        e o seguinte CSS:
+  </div>
+
+        <style>
+
+            #mensagem {
+                 margin: 0;
+                 height: 200px;
+            }
+
+            .centralizado {
+                 width: 700px;
+                 margin: 0 auto;
+            }
+
+            div {
+                 width: 350px;
+                 height: 100px;
+            }
+
+        </style>
+```
+>Este estilo terá um elemento de ```200px de altura, 700px de largura e não centralizado```
+
+>O seletor de id é muito mais específico que o seletor de classe ou de tag. Por isso, o estilo dele prevalece. Sendo assim, o elemento aparecerá com 200 pixels de altura e não centralizado.
+
+>O segundo mais específico no exemplo é o seletor de classe. Ele define a largura de 700 pixels, mas não define a margem automática, pois prevalece a margem definida no id.
+
+>Por fim, o seletor de tag, que define altura e largura, tem suas declarações sobrescritas pelos seletores de id e classe.
+
+>Então o estilo final do elemento é 700 pixels de largura, 200 pixels de altura e não centralizado.
+
+
+> - ### Outro Exemplo de Conflitos com Classes
+
+```html
+    <div class="destaque titulo-principal">
+
+<style>
+    .destaque {
+        font-size: 40px;
+        color: red;
+    }
+    .titulo-principal {
+        background-color: purple;
+        color: white;
+    }
+</style>
+```
+>Se fizermos um elemento com ambas as classes, o navegador precisa decidir quais propriedades de cada classe usar! O critério de desempate é qual das classes aparece por último no arquivo CSS.
+
+>Exemplo mais facil Abaixo:
 ```css
 div {
     background-color: red;
@@ -807,17 +878,32 @@ div {
 }
 ```
 
-## 8.6 Temos um conflito, porém Todos os elementos <div> terão fundo azul.
-## 8.7 Assim ultilizando o critério de desempate é qual das classes aparece por último no arquivo CSS
-
-
-
+>Temos um conflito, porém Todos os elementos ```<div>``` terão fundo azul. Assim ultilizando o critério de desempate é qual das classes aparece por último no arquivo CSS
 
 # Aula 9: Nem tudo é o que parece
 
-## 9.1 Atribuindo transformaçoes de texto em ultilizando text-transform uppercase e lowercase
-Explicar cada um deles
-Colocar código
+## 9.1 Atribuindo transformaçoes de texto, ultilizando text-transform.
+
+>Podemos por um tamanho na nossa fonte, com minusculo e maiusculo. Mais nao usando o ```Capslook```, e sim uma atribudo do CSS o ```text-transform```.
+
+>A ```text-transform```: Propriedade CSS especifica como capitalizar o texto de um elemento. Ele pode ser usado para fazer o texto aparecer em maiúsculas ou minúsculas, ou com cada palavra em maiúscula.
+
+```css
+    p {
+        text-transform: uppercase;
+    }
+    p {
+        text-transform: lowercase;
+    }
+    p {
+        text-transform: capitalize;
+    }
+```
+>```uppercase```: DEFINE AS LETRAS MAIUSCULAS DO TEXTO.
+
+>```lowercase```: define letra minuscula do texto.
+
+>```capitalize```: Define As Iniciais De Cada Texto Maiusculas.
 
 ## 9.2 Adicionando Image replacement: Dentro da folha de estilo:
 O que é isso
