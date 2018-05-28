@@ -906,25 +906,50 @@ div {
 >```capitalize```: Define As Iniciais De Cada Texto Maiusculas.
 
 ## 9.2 Adicionando Image replacement: Dentro da folha de estilo:
-O que é isso
-exemplo 
+
+>```Image Replacement```: A substituição de imagem CSS é uma técnica de substituir um elemento de texto (geralmente uma tag de cabeçalho como uma ```<h1>```) por uma imagem (geralmente um logotipo).
+
+>Como exemplo abaixo ao definir uma image do github no lugar da palavra "GitHub".
+
 ```css
 .github {
     background-image: url(github.png);
 }
 ```
-## 9.3 Display Blocks nos links
 
-Pq colocou o displayu block ?
-Explicar direitin e dar exemplo de código
+>Ou seja, o browser irá mostrar uma imagem, enquanto no HTML você verá apenas o texto.
 
-## 9.4 Image replacement e ferramentas de buscas...
-Explicar melhor o que é essas tretas
+## 9.3 Image replacement e ferramentas de buscas...
 
-## 9.5 Aplicando e entendendo text-indent -9999 ou font-size 0px; ambos remove o texto..
-Eplicar melhor aqui cada um deles individualmente
-Exemplo de código
+ >Ferramentas de busca, ao examinarem nossos sites, levam em conta apenas o HTML.
 
+ >Por não examinarem o CSS, as ferramentas de busca não encontrarão e, portanto, não indexarão as imagens referenciadas no CSS. Isso pode ser ou não interessante. Se usamos corretamente a técnica image replacement, apenas imagens secundárias, supérfluas para o conteúdo, serão ignoradas; as imagens mais importantes ficam no HTML e, portanto, são indexadas.
+
+## 9.5 Aplicando e entendendo text-indent.
+
+>O ```text-indent```: Permite regular o recuo da primeira linha de um parágrafo. Como o exemplo Abaixo:
+
+<p align="center">
+<img src="http://caelum-online-public.s3.amazonaws.com/intro-html-css/efeito-text-indent.png" width="500" height="250">
+</p>
+
+>Quando colocamos um tamanho maior que zero para essa propriedade, a primeira linha começa um pouco depois das linhas seguintes. Se colocamos um tamanho menor que zero, a primeira linha começa um pouco antes.
+
+>Se aumentamos muito o valor do ```text-indent```, o texto pode começar fora da página.
+
+>Se um texto tiver mais que uma palavra apenas so a primeira palavra q vai sair fora da pagina dependendo do valor que voce por no atributo.
+
+>Um Exemplo do codigo, ate mesmo do curso, na qual estou fazendo e que esta disponivel ai no github.
+
+```css
+.icones-redes-sociais a {
+    background-image: url(github.png);
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+```
 
 # Aula 10: Posicionamento mais a fundo
 
