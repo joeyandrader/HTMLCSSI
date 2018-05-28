@@ -974,7 +974,7 @@ div {
 
 >```float:right``` posiciona a direita.
 
-## 10.4 Propriedade  Clear no CSS.
+## 10.3 Propriedade  Clear no CSS.
 
 >O ```clear```: Especifica em quais lados de um elemento elementos flutuantes não podem flutuar.
 
