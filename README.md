@@ -954,27 +954,62 @@ div {
 # Aula 10: Posicionamento mais a fundo
 
 ## 10.1 Tipos de conteudos flutuantes
-O que são conteudos flutuantes
-Exemplo de código
+
+>Temos algumas propriedades de posicionamento no css. e uma delas que falaremos aqui é da propriedade ```FLOAT```.
+
+>Há dois valores possíveis para ela (além do ```none```, que é o padrão): temos o ```left``` e ```right```.
+
 
 ## 10.2 Float right e left "Posicionando elementos a direita e esquerda"
-Explicar melhor float right e left
-Colcoar imagem de como fica
-Colocar código exemplo
 
-## 10.3 Ultilizando box sizing- border box
+>O ```float```: Propriedade CSS especifica que um elemento deve ser colocado ao longo do lado esquerdo ou direito de seu contêiner, permitindo que elementos de texto e sequenciais o envolvam. O elemento é removido do fluxo normal da página da web, embora continue sendo parte do fluxo
 
-O que são essas coisas
-Exemplo com imagem
-colocar código exemplo 
+>Exemplo abaixo:
 
-## 10.4 Propriedades  Clear . Left , right , both "Elimina espaço na esquerda, direita . ou em ambos"
+<p align="center">
+<img src="https://css-tricks.com/wp-content/csstricks-uploads/web-text-wrap.png" width="500" height="250">
+</p>
 
-Colocar explicação
-Colocar o pq usamos isso (quando que é útil)
-Exemplo do código
-exemplo imagem
+>```float:left``` posiciona a esquerda.
 
+>```float:right``` posiciona a direita.
+
+## 10.4 Propriedade  Clear no CSS.
+
+>O ```clear```: Especifica em quais lados de um elemento elementos flutuantes não podem flutuar.
+
+> E para isso basta apenas especificar no clear qual float queremos eliminar. E para isso existe suas propriedades que são.
+
+- ```none```: Padrão. Permite elementos flutuantes em ambos os lados.
+- ```left```: Nenhum elemento flutuante permitido no lado esquerdo.
+ - ```right```: Nenhum elemento flutuante permitido no lado direito.
+- ```both```: Não há elementos flutuantes permitidos no lado esquerdo ou no lado direito.
+
+>Como exemplo: 
+- se colocamos um codigo assim:
+
+```html
+<div class="primeiro">
+  meu conteudo primeiro
+</div>
+
+<div class="segundo">
+  meu conteudo segundo
+</div>
+```
+- com um CSS assim :
+```css
+.primeiro {
+    float: left;
+}
+
+.segundo {
+    float: left;
+    clear: left;
+}
+```
+
+- vamos notar que o conteudo 1 fica acima do conteudo 2. Se removermos o ```clear:left;``` o conteudo 1 e 2 ficarao alinhados.
 
 # Aula 11: Elementos onde queremos
 
