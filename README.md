@@ -1013,35 +1013,65 @@ div {
 
 # Aula 11: Elementos onde queremos
 
-## 11.1 Propriedades Position. ("Relative , absolute e fixed")
+## 11.1 Propriedades Position.
 
-Explicar cada uma delas
-Mostrar imagem
-Exemplo de código
+>Para posicionarmos elementos no nosso documento HTML, precisamos da propriedade ```position``` e suas parceiras ```top```, ```left```, ```bottom``` e ```right```. O comportamento dessas quatro últimas propriedades muda bastante de acordo com o valor passado à propriedade ```position```.
 
-## 11.1 Relative , Realtivo a posição original do elemento
-Explicar melhor aqui
-mostrar imagem
-Exemplo de código
+- top : Acima do elemento.
+- left : A esquerda do elemento. 
+- right : A direita do elemento.
+- bottom : Abaixo do elemento.
 
-## 11.1 Absolute , com ele podemos colocar um elemento onde quisermos na página
+## 11.2 Position > Relative.
 
-Explicar melhor o absolute
-Mostrar códigoi
-MOstrar imagme
+>A propriedade ```relative``` do ```position``` a gente consegue mudar a posição do elemento de acordo com a posição original dele.
 
-## 11.1 Fixed , Fixamos um elemento independentemente da posição da rolagem da página no navegador.
+```css
+img {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+```
+ - OBS: Mais abaixo tem a imagem de exemplo.
+ - 
+## 11.3 Position > Absolute.
 
-Explicar melhor
-Mostrar código
-Mostrar imagem
+>A propriedade ```absolute``` do ```position```, com ele, podemos colocar um elemento onde quisermos na página. independentemente do resto do conteúdo.
 
-## 11.1 Todas propriedades usam elementos como top , left , right , bottom.
+```css
+img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+```
+>Abaixo temos uma imagem de Exemplo:
 
-Explicar melhor
-Explicar o que é cada um (top = cima, left...)
+<p align="center">
+<img src="https://i.stack.imgur.com/gz265.png" width="400" height="300">
+</p>
+
+## 11.4 Position > Fixed.
+
+>A propriedade ```fixed``` do ```position```, Ele nos permite deixar um elemento no lugar que quisermos da janela, usando também as propriedades ```top```, ```left```, ```bottom``` e ```right``` para determinar a distância do elemento para esses quatro cantos da janela.
+
+- Exemplo:
+
+```css
+footer {
+    position: fixed;
+    top: 200px;
+    left: 100px;
+}
+```
+
+<p align="center">
+<img src="http://ptgmedia.pearsoncmg.com/images/ch21_0321703529/elementLinks/21fig10.jpg" width="400" height="350">
+</p>
 
 # Aula 12: Desafios Finais
 
-## 12.1 Testando conhecimento aprendindo durante todo o curso
-##12.2 Criando a pagina "Portifolio"
+> E por fim ate o final dessa aula todos os arquivos desenvolvido por mim durante a aula está no git.
+
+- a uma segunda aula no momento em continuação do que estou aprendendo mais ainda do HTML5, CSS3. Provavelmente terá alguns conteudos repetidos. como o Position, vai ter mais explicação sobre ele também.. segue o link da pasta HTMLCSSII no git. <a href="https://github.com/hulkg3x/HTMLCSSII"> HTMLCSSII github</a>
