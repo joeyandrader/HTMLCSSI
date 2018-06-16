@@ -5,14 +5,6 @@ Curso HTML5 e CSS3 I: Suas primeiras páginas da Web / https://cursos.alura.com.
   <img src="https://givingdata.com/wp-content/uploads/2013/07/html-css-js.png" alt="Imagem de HTML JS E CSS">
 </p>
 
-<!-- GUI AQUI:
-jb
-    Estava pensando que cada ">" era um título ou algo do tipo
-    Acho que rola você colocar 8.5, 8.6 e 8.7 só dentro do 8.5 explicando direitin
-
-    Isso pode ter acontecido para outras coisas, se vocÊ ver que não faz sentido pode juntar itens.
-
--->
 # Aula 1: Iniciando HTML
 ## 1.1 Aplicando o DocType na Pag HTML (Define a versão mais recente do HTML)
   ### 1.1.1 O que é DocType e para o que serve?
